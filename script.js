@@ -7,7 +7,7 @@ let student = {
         console.log("Hi, my name is " + this.name + "and I am " + this.age);
     },
     addCourse: function(){
-        console.log("A new coourse was added called " + this.courses[1]);
+        courses.push("Algorithms");
     }
 };
 
