@@ -29,5 +29,10 @@ console.log(first);
 console.log(third); 
 
 
-let clonedStudent = {name: "Ahmad", age: 29, graduationYear: 2027};
-console.log(clonedStudent.graduationYear);
+let clonedStudent = {name: "Ahmad", age: 29};
+let studentObject2 = {graduationYear: 2027};
+
+console.log(studentObject2.graduationYear);
+let combinedObject =  {...clonedStudent, ...studentObject2};
+console.log(combinedObject);
+
