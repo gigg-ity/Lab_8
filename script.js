@@ -8,7 +8,12 @@ let student = {
     },
     addCourse: function(){
         courses.push("Algorithms");
+    },
+    logCourse: function(){
+        let x = console.log(this.addCourse());
+        return x;
     }
+
 };
 
 console.log(student.age);
@@ -38,3 +43,4 @@ console.log(studentObject2.graduationYear);
 let combinedObject =  {...clonedStudent, ...studentObject2};
 console.log(combinedObject);
 
+student.logCourse();
