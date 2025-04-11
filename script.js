@@ -21,3 +21,13 @@ console.log(jsonObj.name);
 let { name, age, courses } = student;
 console.log(name); 
 console.log(courses[0]); 
+
+
+let scores = [50, 60, 80, 90];
+let [first, , third] = scores;
+console.log(first); 
+console.log(third); 
+
+
+let clonedStudent = {name: "Ahmad", age: 29, graduationYear: 2027};
+console.log(clonedStudent.graduationYear);
