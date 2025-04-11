@@ -16,3 +16,8 @@ console.log(student.greet());
 let jsonStringObject = '{"name":"Ahmad","age":29}';
 let jsonObj = JSON.parse(jsonStringObject);
 console.log(jsonObj.name);
+
+
+let { name, age, courses } = student;
+console.log(name); 
+console.log(courses[0]); 
